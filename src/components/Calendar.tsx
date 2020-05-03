@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { tdate } from '@shinbaek/tool-case';
 
-export default function Calendar() {
+function Calendar() {
   console.log('isDate : ', tdate.isDate(new Date()));
   console.log('getDatesOfMonth : ', tdate.getDatesOfMonth(2020, 5, false));
 
@@ -16,3 +16,5 @@ export default function Calendar() {
 const styles = StyleSheet.create({
 
 });
+
+export default Calendar;
