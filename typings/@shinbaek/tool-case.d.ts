@@ -14,6 +14,6 @@ declare module '@shinbaek/tool-case' {
 
     export function getNumOfWeeksOfMonth(year: number, month: number): number;
 
-    export function getDatesOfMonth(year: number, month: number, onlyThisMonth: boolean): Array<DateStructure>;
+    export function getDatesOfMonth(year: number, month: number, onlyThisMonth: boolean): DateStructure[];
   }
 }
